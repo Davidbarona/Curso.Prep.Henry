@@ -1,0 +1,70 @@
+# solución homework 
+
+//Variables 
+Son cualquier tipo de valor que se guardan en una caja, con el fín de ser utilizados en cualquier momento, 
+pueden ser un número,  una letra o un caracter, depende cual sea el úso que se brinde. 
+ejemplo: 
+  caja = manzana 
+
+  cada vez que uses la caja, aparecerá una manzana 
+
+  es importante tener en cuenta que cada vez que guardas una variable, la otra se elimina,
+   es decir que si tiene una caja y tienes una manzana dentro de ella, solo cabe la manzana, 
+   si necesitas meter una pera, debes retirar la manzana, así cuando vuelvas
+    a necesitar la variable, aparecerá una pera, que es lo último que guardaste. 
+
+//Strings 
+
+Es una variable que siempre, siempre debe estár entre comillas, ya que eso las hace un strings,
+ funciona para dejar un valor fijo en una variable 
+
+ ejemplo:
+
+string = 2 
+
+si multiplicas 5 * string el valor que está contenido en string (2) hará que el resultado sea 10 
+
+es igual a  5 * 2  
+
+// Funciones 
+las fuciones son formulas para resolver cualquier pregunta dentro de un programa, se crea
+un conjunto para la solución de un problema, estas funciones siempre irán encerrada entre {} así
+sabremos que es una función 
+
+Estas funciones siempre tiene un return el cual lo llamaremos final, ya que aquí es donde terminará
+nuestro código, cuando return aparezca, todo lo que vaya delante de el no aparecerá, ya que declara 
+un fin. 
+
+// If / Else 
+
+es una declarción, cuando  hablamos de if damos una condición de algo, es decir 
+si la condición es acertada, el resultado es  x , cuando la condición no es aceptada el resultado 
+será y. cuando el resultado no es lo que dice if, de inmediato buscará a Else ya que cuenta solo 
+con esas dos condiciones si If no es cierto, buscar Else. 
+
+Ejemplo 
+
+if {x=10; 
+console.log( esta bien)}
+Else {
+    console.log(el número es diferente de 10)
+    return 
+}
+
+// Valores Booleanos
+
+Los valores booleanos true y false son muy efectivos para realizar comparaciones y afirmaciones 
+sobre algún valor, palabra o número entre otros. 
+
+un ejemplo es
+
+si 10 es mayor a 1 es verdadero  
+de lo contrario seria falso 
+
+si 20  es igual a 2 es verdadero 
+de lo contrario  sería falso 
+
+
+en  el primer ejemplo encontramos que 10 es mayor que 1 y su resultado será verdadero  
+en cambio en el segundo resultado podemos ver que 20 no es igual a 2 así que arrojará falso 
+
