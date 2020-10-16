@@ -1,0 +1,56 @@
+
+
+Que es un For? 
+
+Es un función con la cual nos podrá ayudar a repetir ciclos muy grandes, como contadores de números, como si en llegado caso tuvieramos 
+realizar un contador que fuera hasta el número cien mil, con ello podemos poner a contar desde el número que elijamos hasta desde que se 
+acomode desde donde necesitamos iniciar y hasta donde queremos ir. 
+
+Siempre es necesario darle un inicio o un fin a ello, para así saber hasta donde queremos llegar, con ello poder obtener los objetivos 
+deseados.
+
+Lógica Booleana 
+
+Son unos componentes los cuales nos ayudaran a realizar comparaciones según lo que necesitemos, además de contar 
+con unas tablas que nos ayudaran a comprobar para que sirven, teniendo en cuenta 
+que los computadores trabajan en un sistema llamado binario, siempre  aparecerá el número 1 y el número 0 
+como ejemplo, así que   el día de hoy vamos a ver estos tres componentes: 
+
+&& 
+
+Este componenete se puede comparar como si fuera una multiplicación su objetivo es mostranos las siguientes comparativas: 
+
+0 * 0 =  0      0 0 = False 
+0 * 1 =  0      0 1 = False 
+1 * 0 =  0      1 0 = False 
+1 * 1 =  1      1 1 = True 
+
+Si comparamos las tablas que encontramos en la parte superior, nos podremos dar cuenta que  si buscamos un resultado positivo,
+es necesario que ambos datos ingresados sean el número 1, es igual si buscamos un verdadero. con ello debemos analizar que si y solo si, 
+cuando los dos resultados son 1 y 1 encontraremos un resultado positivo, por ello podemos comparar como una multiplicación. 
+
+||
+
+El siguiente operador lo podemos comparar con una suma, su objetivo es realizar el siguiente procedimiento: 
+
+0 + 0 =  0      0 0 = False  
+0 + 1 =  0      0 1 = True 
+1 + 0 =  0      1 0 = True 
+1 + 1 =  1      1 1 = True 
+
+Dentro del siguiente comparador podemos encontrar que cada ves que tengamos un 1 o un valor verdadero nos contará como un 1 y su valor 
+siempre será positivo o verdadero. 
+
+! 
+
+Por ultimo encontramos el siguiente comparador que lo podremos llamar como negación ya que lo que hace es que toma una de las columnas
+vistas anteriormente y cambia sus valores, si son positivos los deja negativos y visceversa, así como vemos a continuación:
+
+0 = 1     False = True 
+0 = 1     False = True
+1 = 0     True = False 
+1 = 0     True = False 
+
+
+Viendo las tablas anteriores podemos ver que se toma los valores ubicados a la izquierda y son transformados por  sus valores contrarios 
+así poder obtener esos resultados. 
