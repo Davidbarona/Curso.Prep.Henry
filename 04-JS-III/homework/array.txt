@@ -1,0 +1,24 @@
+Array 
+
+Es una caja en la cual podemos guardar diferentes cantidades de caracteres, desde valores númericos, letras, 
+booleanos entre otros.  cuando se declara una arreglo es necesario poner este tipo de corchetes "[]" con ello
+se declara que es un arreglo o una caja en la cual podemos guardar variavles.
+
+ejemplo 
+
+var animales [perro,gato,pato,gallina,cocodrilo];
+
+si consultamos la variable " animales" vamos a encontrar 5 variables. si en algún caso necesitamos llamar una
+debemos hacer o siguiente 
+
+var animales[2];
+
+Con esto estamos solicitando que hay en el espacio 2, en este caso el gato!
+
+también es bueno recordar que podemos guardar cualquier tipo de variable, como: 
+
+var diferentes [ 11, verdadero, 123,carro]; 
+
+si solicitamos la variable numero 1 (var diferentes[1];) nos devolverá el 11 que está guardado en la posición 1 dentro
+del arreglo. 
+
