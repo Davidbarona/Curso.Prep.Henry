@@ -1,0 +1,79 @@
+Objetos: 
+
+Los objetos son casas en la cuales podemos contener cualquier tipo de variable, teniendo una  gran diferencia
+con los arreglos (array) en la cual podemos modificar rápidamente las variables guardadas demás y no menos
+importante que  a diferencia de los arreglos, los objetos se representan en corcheres {} y 
+recordamos que los arreglos van en parentesis (). también dentro de 
+los objetos podemos guardar:
+
+arreglos 
+booleanos 
+variables
+caracteres 
+Etc... 
+
+Propiedades 
+
+Las propiedades son el nombre  que le damos a una variable  que vamos a guardar dentro 
+del objeto, con ello poder identificarlo y poder llamarlo solo con su nombre en cuando lo necesitemos, por ejemplo:
+
+var casa = {
+            espacio1: cocina,
+            espacio2: Sala,
+            Espacio3: baño,    
+}
+
+
+viendo el ejmplo anterior, los llamados espacios, son propiedades, las cuales contienen un valor dentro, en este 
+caso puede ser: dentro del espacio1 encontramos una cocina, dentro del espacio2 encontramos la sala y en el Espacio3
+encontramos el baño, todo esto lo contiene un objeto, la cual es la casa en este caso. también tenemos una gran 
+ventaja con las propiedades, ya que al llamarlas de esa manera podemos cambiar el orden de los espacios, y guardar 
+si queremos en el espacio1:sala, en el espacio 3: cocina y así tener la ventaja de manipularlos a nuestro antojo.
+
+Métodos
+
+Los metodos son los que regularmente conocemos como funciones, las cuales hemos visto anteriormente, como for, if,
+while, entre otras, lo importante es que se conoce como método a toda función que se encuentro dentro de la cajita 
+de Objetos que estamos viendo, es decir,  si vemos que hay una función  y esta es mencionada dentro de 
+los corchetes {}, podemos decir que es un método. así podremos diferenciar fácilmente una de la otra.
+ejemplo: 
+
+var saludo {
+
+    function(){
+
+        console.log ( 'hola a todos');
+    }
+}
+
+analizando lo anterior, podemos ver que dentro del objeto de saludo, se encuentra una función, pero recordemos 
+que como está dentro del objeto saludo, se conoce como método, el cual nos da como resultado 'hola a todos'. 
+
+Bucles for in 
+
+Esta es una referencia, la cual nos sirve para ingresar dentro del objeto las veces que sean necesarias 
+para poder sacar información del mismo, lo que hace es que después de rellenar el objeto con valores, creamos
+una formula la cual nos permita consultar los valores que tenemos dentro de el y así poder obtener una respuesta 
+según nuestras prioridades. 
+
+
+
+Notación de puntos y corchetes 
+
+dentro de los objetos tenemos dos formas de utilizarlos y obtener el mismo resultados una es con los corchetes {} 
+como los hemos visto anteriormente y la otra es con punto, como se muestra a continuación:
+
+
+Modo 1: Corchetes 
+
+var usuario {
+    amigo.push: nuevoamigo;
+}
+
+Modo 2: Punto 
+
+ suario.amigo.push(nuevoamigo);
+
+viendo las dos opciones anteriores, podemos analizar que necesitamos menos condiciones con los puntos y además
+que si necesitamos cambiar una de estas variables será mucho más sencillo el proceso con punto que con los corchetes
+sin embargo al momento de planetar más propiedades dentro de los corchetes y así tener un código mayormente organizado.
