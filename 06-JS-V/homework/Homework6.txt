@@ -1,0 +1,45 @@
+Homework 
+
+Prototype 
+
+Conociendo los objetos y los arreglos y sabiendo de la manera en la que funcionan, podemos analizar que  es bastante
+largo un código que al cual le solicitemos lo que hay en un arreglo o en un obejto, así que para ello se crearon
+los prototipos, los cuales tiene la posibilidad de traer una función, objeto u/o arreglo y trabajar con lo que 
+contenga en su interior. es decir si tuvieramos una caja grande con video juegos (función/método/arreglo, etc...
+) y un robot, que en este caso es prototype, le ordenaríamos al robot que dentro de la caja de video juegos trajera 
+mario bros. pero si hay más de un video juego podremos accesar las veces que necesitemos, sea pedirle un  contra,
+crash bandicoot, o dragon ball, podemos solicitar las veces que necesitemos todo lo que contenga esa inmensa caja.
+
+Ejemplo: 
+
+function videojuegos (mario,crash){
+    this.mario = SuperMario;
+    this.crash = crashbandicoot;
+}
+
+videojuegos.prototype.juegos = function (){
+return 'Mi video juego favorito es ' + this.mario , 'Mi segundo video juego favorito es ' + this.crash; 
+
+}
+
+la caja ( función constructor) puede contener los video juegos que queramos, y con prototype podemos traerlos
+y hablar sobre ellos las veces que los necesitemos. 
+
+
+
+Constructor
+
+Si continuamos con la linea de video juegos, el constructor es una gran caja  (función/método/objeto) en la cual 
+podemos guardar toda clase de video jugos, los cuales cumplen un rol específico, y son utilizados con proyotype 
+según lo que se requiera,.
+
+
+Ejemplo: 
+
+function videojuegos (mario,crash){
+    this.mario = SuperMario;
+    this.crash = crashbandicoot;
+}
+
+aquí podemos ver como se crea un constructor, el cual tiene como nombre videojuegos y cuenta en este
+momento con mario y crash, estos videojuegos están disponibles para utilizar en cualquier momento. 
