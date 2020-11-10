@@ -1,0 +1,41 @@
+Callbacks 
+
+Este termino hace referencia a tener funciones dentro de otras funciones, para poder entender este termino vamos 
+a realizar una comparación dentro de una casa y así entender más fácil la terminología como callbacks 
+
+
+dentro de una casa que puede ser nuestra función principal o callbacks en este caso. dentro de una casa tenemos 
+
+sala 
+comedor 
+alcoba
+baño 
+cocina 
+habitación principal 
+
+lo que tenemos dentro de la casa, son funciones segundarias, las cuales podremos vincular con la casa (Callback), 
+es decir que si llegaramos a necesitar o invocar algo que necesitamos dentro de la casa deberíamos hacer lo 
+siguiente: 
+
+
+
+function PartedelaCasa(casa) {
+    return 'hay una  cocina ' + '!';
+}
+
+
+function PartedelaCasa2(casa) {
+    return 'hay una  sala ' '!';
+}
+
+function PartedelaCasa3(casa) {
+    return 'hay un baño ' '!';
+}
+
+function Casatotal(casa) {
+    return cb (casa); 
+}
+
+
+dentro de ellas podemos ver que podemos ver que podemos meter todos los elementos de la casa en una sola función 
+y llamar la que necesitemos, con ello poder utilizar la parte de la casa que necesitemos o queramos buscar. 
