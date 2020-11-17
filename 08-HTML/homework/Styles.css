@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    text-align: center;
+    background-image: url("https://get.pxhere.com/photo/landscape-water-nature-horizon-mountain-cloud-sky-sun-sunrise-sunset-field-prairie-sunlight-morning-hill-lake-dawn-mountain-range-panorama-dusk-panoramic-evening-reflection-natural-scenery-plain-clouds-canada-beautiful-afterglow-british-columbia-atmospheric-phenomenon-red-sky-at-morning-marble-range-1115950.jpg");
+}
+
+h1  {
+    color: white;
+}
+
+.imagen {
+    width: 400px;
+    margin: 10px auto; 
+}
+
+#thirdDiv {
+
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: cadetblue;
+    padding: 50px;
+    border: 50px solid black ;
+    text-align: center;
+    
+   }
+
+   li{
+    list-style: none;
+}
+
+
+#spanId {
+font-size: 18px;
+margin: 50px;
+}
+
+
+
+ 
